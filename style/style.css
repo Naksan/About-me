@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none; /* отключает подчеркивание у ссылки */
+}
+
+.nav-content {
+    width: 1218px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none; /* отключает маркер у списка */
+    display: flex;
+}
+
+.nav {
+    background: #000000;
+    padding: 14px 0;
+}
+
+.nav-logo {
+    color: #FFFFFF;
+    line-height: 48px; /* межстрочный интервал (высота строки) */
+    font-size: 40px; /* размер шрифта */
+    font-family: Arial; /* семейство шрифтов */
+    font-weight: 700; /* жирность шрифта */
+}
+
+.nav-link {
+    color: #FFFFFF;
+    line-height: 30px;
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: 400;
+    margin-right: 72px;
+}
+
+.header {
+    background: url('../images/header-bg.png') no-repeat center center /cover;
+    height: 926px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1; /* растягивает элемент по ширине родителя */
+    justify-content: center;
+}
+
+.header-title {
+    color: #000000;
+    line-height: 48px;
+    font-size: 40px;
+    font-family: Arial;
+    font-weight: 700;
+    margin-bottom: 150px;
+}
+
+.header-link {
+    display: block;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 5px 23px 15px 24px;
+    color: #000000;
+    line-height: 42px;
+    font-size: 35px;
+    font-family: Arial;
+    font-weight: 700;
+}
+
+.main-about {
+    background: #0E1C25;
+    padding-top: 30px;
+    padding-bottom: 112px;
+
+}
+
+.main-title {
+    color: #FFFFFF;
+    line-height: 48px; /* высота строки и межстрочный интервал */
+    font-size: 40px; 
+    font-weight: 700; 
+    font-family: arial;
+    text-align: center;
+}
+
+.about-info {
+    width: 1218px;
+    margin: 47px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-name {
+    color: #FFFFFF;
+    line-height: 42px;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: arial;
+    margin-bottom: 62px;
+}
+
+.about-description {
+    color: #FFFFFF;
+    line-height: 22px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: arial;
+    width: 427px;
+    /* text-align: center right left justify; Отвечает за выравнивание текста */
+}
+
+.main-works {
+    background: #5C6B81;
+    padding-top: 43px;
+    padding-bottom: 70px;
+}
+
+.works-items {
+    width: 1218px;
+    margin: 60px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 30px; /* задает отступы между своими дочерними элементами */
+}
+
+.works-item {
+    background: #B12B06;
+    border-radius: 10px;
+    width: 312px;
+    padding: 15px 15px 27px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-img {
+    width: 100%; /* картинка заполняет всю ширину в родителе при 100% */
+}
+
+.item-title {
+    color: #FFFFFF;
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: arial;
+    margin: 20px 0;
+}
+
+.item-description {
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 17px;
+    font-size: 14pz;
+    font-weight: 700;
+    font-family: arial;
+    margin-bottom: 20px;
+    width: 264px;
+}
+
+.item-link {
+    display: block;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 8px 22px;
+    color: #000000;
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: arial;
+}
+
+.footer {
+    background: #000000;
+    padding-top: 46px;
+    padding-bottom: 55px;
+    height: 243px;
+}
+
+.footer-text {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    font-family: arial;
+    text-align: center;
+
+}
+ .footer-icons {
+    margin-top: 46px;
+    display: flex;
+    justify-content: center;
+    column-gap: 200px;
+    align-items: center;
+
+ }
+
+
+/* .main-about {
+    background: #0E1C25;
+    padding-top: 30px;
+    padding-bottom: 112px;
+}
+
+.main-title {
+    color: #FFFFFF;
+    line-height: 48px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Arial;
+    text-align: center;
+}
+
+.about-info {
+    width: 1218px;
+    margin: 47px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-name {
+    color: #FFFFFF;
+    line-height: 42px;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: Arial;
+    margin-bottom: 62px;
+}
+
+.about-description {
+    color: #FFFFFF;
+    line-height: 22px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Arial;
+    width: 427px;
+}
+
+.main-works {
+    background: #5C6B81;
+    padding-top: 43px;
+    padding-bottom: 70px;
+}
+
+.works-items {
+    width: 1218px;
+    margin: 60px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 30px; /* задаёт отступы между своими дочерними элементами 
+}
+
+.works-item {
+    background: #B12B06;
+    width: 312px;
+    border-radius: 10px;
+    padding: 15px 15px 27px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-img {
+    width: 100%;
+}
+
+.item-title {
+    color: #FFFFFF;
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial;
+    margin: 20px 0;
+}
+
+.item-description {
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 17px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Arial;
+    margin-bottom: 20px;
+    width: 264px;
+}
+
+.item-link {
+    display: block;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 8px 22px;
+    color: #000000;
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial;
+} */
